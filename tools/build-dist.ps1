@@ -105,6 +105,9 @@ Add-Type -AssemblyName System.IO.Compression.FileSystem
 # Zip root = package folder, so players get one "UGAR-ModPack" folder when they unzip.
 [IO.Compression.ZipFile]::CreateFromDirectory($Stage, $Zip, [IO.Compression.CompressionLevel]::Optimal, $true)
 Write-Host ("Package: {0} ({1:N1} MB)" -f $Zip, ((Get-Item $Zip).Length / 1MB)) -ForegroundColor Green
+# Same zip under a fixed name: upload it to each GitHub release so .../releases/latest/download/UGAR-ModPack.zip
+# (the README's download link) always gets the newest version.
+Copy-Item $Zip (Join-Path $Dist 'UGAR-ModPack.zip') -Force
 
 if ($DeployLocal) {
 	& powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$Stage\installer\Install-UGARMods.ps1" -GameDir $GameDir -Force -Quiet
