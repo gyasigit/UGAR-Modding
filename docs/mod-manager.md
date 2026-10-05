@@ -35,6 +35,14 @@ Most mods update in the running game, with no restart:
 
 A mod that wasn't loaded when the game started (for example one you just installed) needs one restart first.
 
+### Update notices
+
+If you installed the pack with `Install.bat`, the manager checks the
+[GitHub releases](https://github.com/gyasigit/UGAR-Modding/releases) once each time the game starts. When a newer
+version is out, the **Mods** button shows **Mods !** and the window shows a **Get update** button that opens the
+download page. Nothing is downloaded or installed automatically: download the new zip, close the game and run its
+`Install.bat`. Turn the check off with `General.CheckForUpdates`.
+
 ### Manager settings
 
 In the window under **UGAR Mod Manager**, or in `BepInEx\config\ugar.modmanager.cfg`:
@@ -46,6 +54,7 @@ In the window under **UGAR Mod Manager**, or in `BepInEx\config\ugar.modmanager.
 | `General.ButtonCorner` | BottomLeft | Corner for the button. |
 | `General.Scale` | 1 | Size of the window and button (0.6 to 2.5). |
 | `General.BlockGameClicks` | on | *(Advanced)* Stop clicks on the window reaching the game behind it. |
+| `General.CheckForUpdates` | on | At game start, check GitHub once for a newer mod pack (see below). |
 | `LiveReload.ReloadChangedMods` | on | Reload a mod when its dll or data files change. |
 | `LiveReload.ReloadEditedSettings` | on | Re-read a `.cfg` file edited outside the game. |
 | `LiveReload.Delay` | 1 | *(Advanced)* Seconds to wait after the last file change before reloading. |

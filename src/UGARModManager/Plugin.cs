@@ -29,7 +29,7 @@ namespace UGARModManager
 	{
 		public const string Guid = "ugar.modmanager";
 		public const string Name = "UGAR Mod Manager";
-		public const string Version = "1.1.2";
+		public const string Version = "1.2.0";
 
 		internal static ManualLogSource Logger;
 		internal static ConfigEntry<KeyCode> ToggleKey;
@@ -41,6 +41,7 @@ namespace UGARModManager
 		internal static ConfigEntry<bool> WatchModFiles;
 		internal static ConfigEntry<bool> WatchConfigFiles;
 		internal static ConfigEntry<float> ReloadDelay;
+		internal static ConfigEntry<bool> CheckForUpdates;
 
 		public override void Load()
 		{
@@ -55,6 +56,10 @@ namespace UGARModManager
 			WatchConfigFiles = Config.Bind("LiveReload", "ReloadEditedSettings", true, "When a mod's .cfg file is edited outside the game, re-read it so the new values apply straight away.");
 			ReloadDelay = Config.Bind("LiveReload", "Delay", 1f, new ConfigDescription("Seconds to wait after the last file change before reloading, so a copy has finished.", new AcceptableValueRange<float>(0.2f, 10f), "Advanced"));
 
+			CheckForUpdates = Config.Bind("General", "CheckForUpdates", true,
+				"At game start, ask GitHub once whether a newer UGAR Mod Pack is released and say so in this window. Nothing is downloaded automatically.");
+
+			UpdateCheck.Start();
 			ClassInjector.RegisterTypeInIl2Cpp<ManagerWindow>();
 			AddComponent<ManagerWindow>();
 			try

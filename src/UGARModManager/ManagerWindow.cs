@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Linq;
 using BepInEx;
@@ -208,7 +208,7 @@ namespace UGARModManager
 				var corner = Plugin.ButtonPosition.Value;
 				float bx = corner == ButtonCorner.BottomLeft || corner == ButtonCorner.TopLeft ? 4f : sw - ButtonW - 4f;
 				float by = corner == ButtonCorner.TopLeft || corner == ButtonCorner.TopRight ? 4f : sh - ButtonH - 4f;
-				if (GUI.Button(new Rect(bx, by, ButtonW, ButtonH), "Mods"))
+				if (GUI.Button(new Rect(bx, by, ButtonW, ButtonH), UpdateCheck.Available != null ? "Mods !" : "Mods"))
 					Open();
 			}
 
@@ -258,6 +258,16 @@ namespace UGARModManager
 			GUILayout.EndHorizontal();
 
 			GUILayout.Label($"Press {Plugin.ToggleKey.Value} to open or close this window. Changes are saved straight away.", _small);
+
+			var update = UpdateCheck.Available;
+			if (update != null)
+			{
+				GUILayout.BeginHorizontal();
+				GUILayout.Label($"UGAR Mod Pack {update} is available (you have {UpdateCheck.Installed}). Download it, close the game and run Install.bat.", _warn);
+				if (GUILayout.Button("Get update", GUILayout.Width(100f)))
+					Application.OpenURL(UpdateCheck.AvailableUrl ?? UpdateCheck.ReleasesUrl);
+				GUILayout.EndHorizontal();
+			}
 
 			GUILayout.BeginHorizontal();
 			bool live = GUILayout.Toggle(Plugin.WatchModFiles.Value, " Live reload: apply updated mods and data files without restarting");
