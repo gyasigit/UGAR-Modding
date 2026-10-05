@@ -3,6 +3,8 @@
 The **Developer Console** mod turns on the developers' own hidden cheat and debug console on the campaign map. This
 page explains how to open it and lists its commands.
 
+![The Developer Console on the campaign map, with the description of the command being typed](images/dev-console.jpg)
+
 ## Using it in game
 
 - Press **~** (the `` ` ``/~ key on US keyboards) on the campaign map to open the console. **Escape** or ~ closes it.

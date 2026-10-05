@@ -3,6 +3,8 @@
 Shows how many recruits each of your settlements gains per day, why, when growth is paused, and when the next recruits
 from Britain arrive. It only reads the game's numbers and changes nothing in your campaign.
 
+![The pinned Recruit Growth popover for Liverpool](images/recruit-growth.jpg)
+
 ## How to use it
 
 Everything uses the game's own tooltip style.

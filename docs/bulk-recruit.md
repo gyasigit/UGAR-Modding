@@ -4,6 +4,8 @@ Create several identical regiments from one design in a single click, reload the
 type, and give new companies the best weapon you have in storage. It can also let understrength towns reinforce from
 their own recruits.
 
+![Bulk Recruit on the recruit screen: set how many regiments to create, or reuse your last design](images/bulk-recruit.jpg)
+
 ## Using it in game
 
 1. Open a settlement's recruit screen and pick a unit type (infantry, cavalry, supply, militia ...) as usual.

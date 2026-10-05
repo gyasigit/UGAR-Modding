@@ -4,6 +4,8 @@ Shows the trade the game runs behind your markets: the 8 partner nations, what e
 every day, what is blocked and why, stock limits and prices. It's read-only and changes nothing in the game or your
 save.
 
+![The Trade Partners window, BY PARTNER view of the Colonies market](images/trade-partners.jpg)
+
 ## How markets work
 
 Every market has 8 trade partners, one per nation: France, Spain, United Colonies, Britain, Cherokee, Creeks, Iroquois
