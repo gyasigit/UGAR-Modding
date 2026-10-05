@@ -1,0 +1,10 @@
+﻿{
+  "id": "ugar.custombuildings",
+  "name": "Custom Buildings",
+  "description": "Adds new settlement buildings to the game's own build menu, Town Expansion (doubles a town's population growth, +10% recruits) for Britain the Loyalist Muster Field (+2 militia regiment limit each) and the Governor's Assembly Rooms (imported tea, spice and luxury goods into renown every week), and for the Patriots the Coffeehouse (tea and spice into renown). More can be added as *.building.json files. Saves with custom buildings need this mod to load: demolish them before uninstalling.",
+  "author": "UGAR modding project",
+  "category": "Content",
+  "restartRequired": ["General.Enabled"],
+  "advanced": ["Debug.LogGrowth", "Debug.DumpGameBuildings"],
+  "watch": ["*.building.json"]
+}

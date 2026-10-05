@@ -1,0 +1,31 @@
+// Coffeehouse: the Patriot counterpart of the Governor's Assembly Rooms. The Americans can import tea and spice
+// (no luxury goods), so it costs less and gives less. Format: docs/custom-buildings.md.
+// The id is stored in saves; never change it once players have built this.
+{
+  "id": "ugar.patriot_coffeehouse",
+  "name": "Coffeehouse",
+  "description": "Where merchants, printers and committeemen meet over imported tea and spices to argue the cause. Every week it uses 3 tea and 2 spice from storage to raise the Patriots' standing. No goods, no meetings. At most 2 in the nation.",
+
+  "template": ["Trade", "TownHall", "Church"],
+  "settlementTypes": ["TOWN", "PORT"],
+  "nations": ["USA"],
+  "aiCanBuild": false,
+  "maxPerNation": 2,
+
+  "cost": [
+    { "resource": "Money", "amount": 1600 },
+    { "resource": "ConstructionMaterial", "amount": 10 },
+    { "resource": "Specialist", "amount": 1 }
+  ],
+  "buildPoints": 40,
+
+  "effects": {
+    "weeklyConversion": {
+      "consume": [
+        { "resource": "Tea", "amount": 3 },
+        { "resource": "Spices", "amount": 2 }
+      ],
+      "renown": 6
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  // A follow-up: needs "army-extraordinaries" to have been paid for, from 1779 (the year the Navy adopted the carronade).
+  "id": "carron-carronades",
+  "title": "The Carron Company's New Gun",
+  "text": "The Carron ironworks near Falkirk have cast a short, light gun of great weight of shot, and the Admiralty orders it for the fleet. Carron and the foundries and yards that fit the new pieces take on more of the Crown's business.",
+  "button": "Order them in quantity",
+  "payButton": "Place the order",
+  "passButton": "Keep to the long guns",
+  "cost": { "money": [2500, 5000], "supplies": [10, 25], "specialists": [0, 1] },
+  "trigger": {
+    "from": "1779-01-01",
+    "requires": ["army-extraordinaries"],
+    "chancePerWeek": 0.25
+  },
+  "effects": {
+    "maxFactories": 3,
+    "maxShipyards": 3
+  }
+}

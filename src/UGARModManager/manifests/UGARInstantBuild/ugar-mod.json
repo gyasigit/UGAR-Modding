@@ -1,0 +1,9 @@
+{
+  "id": "ugar.instantbuild",
+  "name": "Instant Construction",
+  "description": "Cheat: your settlement buildings, upgrades and repairs finish as soon as you order them. You still pay their cost. Off by default; AI nations build normally.",
+  "author": "UGAR modding project",
+  "category": "Cheats",
+  "advanced": ["General.LogFinished"],
+  "canDisable": true
+}

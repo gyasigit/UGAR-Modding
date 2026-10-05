@@ -1,0 +1,7 @@
+﻿{
+  "id": "ugar.community.fixes",
+  "name": "Community Fixes",
+  "description": "Bug fixes for the game. Work in progress: currently records what happens on the England (Britain) screen in the BepInEx log so the bug can be found. Press F9 on the campaign map to log the current state.",
+  "author": "UGAR modding project",
+  "category": "Fixes"
+}

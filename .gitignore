@@ -1,0 +1,24 @@
+research/
+
+# Local-only folders
+docs-internal/
+tools-internal/
+dist/README.md
+
+# Save backups
+backup/
+
+# Third-party tools
+tools/external/
+
+# Build output
+bin/
+obj/
+dist/UGAR-ModPack/
+dist/*.zip
+
+# Editors / OS
+.vs/
+.vscode/
+*.user
+Thumbs.db

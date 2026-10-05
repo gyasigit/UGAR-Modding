@@ -1,0 +1,9 @@
+{
+  "id": "ugar.britishevents",
+  "name": "British Events",
+  "description": "New campaign events for Great Britain in the game's own event window. Each asks a random price (money, supplies, specialists or goods from the home storage): pay at once for its effect or pass. Raise how many factories/shipyards Britain can rent (Army Extraordinaries, Navy Board merchant yards, Carron carronades) or boost the home settlements' population (The Emigration Ships Are Stayed). More can be added as *.event.json files. Fired events are stored in the save.",
+  "author": "UGAR modding project",
+  "category": "Content",
+  "advanced": ["Debug.LogChecks", "Debug.WriteInfo", "Debug.ForceEvent"],
+  "watch": ["*.event.json"]
+}

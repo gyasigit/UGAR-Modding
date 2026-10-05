@@ -1,0 +1,9 @@
+﻿{
+  "id": "ugar.bulkrecruit",
+  "name": "Bulk Recruit",
+  "description": "Adds a card to the regiment recruit screen: create several regiments in one click with a live total cost, capped at what you can afford, with replacement weapons when one runs out; a 'Use last design' button; and new companies get the best weapon you have in storage.",
+  "author": "UGAR modding project",
+  "category": "Quality of life",
+  "advanced": ["Window.X", "Window.Y", "General.ResetCopiesOnOpen"]
+}
+

@@ -1,0 +1,9 @@
+{
+  "id": "ugar.mininggold",
+  "name": "Mining Gold",
+  "description": "Mining Infrastructure in a region with gold also raises the region's gold income, by the same rule it raises iron and the other ores. The Mining Infrastructure card shows the extra gold per week under the ore lines. Never gives less than the game's own small gold bonus. Applies to AI nations too (Advanced setting).",
+  "author": "UGAR modding project",
+  "category": "Fixes",
+  "advanced": ["General.AllNations", "Debug.WeeklyLog"],
+  "canDisable": true
+}

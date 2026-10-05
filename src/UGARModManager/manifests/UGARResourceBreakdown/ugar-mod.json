@@ -1,0 +1,9 @@
+{
+  "id": "ugar.resourcebreakdown",
+  "name": "Resource Breakdown",
+  "description": "Click a resource (coal, wood, iron, copper, saltpeter, cloth) or the factory/shipyard numbers on the Production screen to see where it comes from: each region and building producing it, what your production orders use per day, ships and England storage, and the weekly net. Read-only: changes nothing in the game.",
+  "author": "UGAR modding project",
+  "category": "Information",
+  "advanced": ["Window.Scale", "Debug.VerifyLog"],
+  "canDisable": true
+}

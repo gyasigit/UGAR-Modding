@@ -1,0 +1,21 @@
+{
+  // Home-country event: needs trade goods in Britain's home (England screen) storage, from September 1775.
+  // The price: provisions from the home storage, a quarter to a half of one other good stored there, and some money.
+  "id": "emigration-ships-stayed",
+  "title": "The Emigration Ships Are Stayed",
+  "text": "With the colonies in arms, the Privy Council has forbidden the emigrant ships to sail. Thousands of Highland and Ulster families who had sold up for passage to America now wait on the quays at Greenock, Fort William and Londonderry. The lairds and the Irish administration ask the Crown for stores from the home warehouses, so the people may be settled again on the land and in the towns rather than drift away.",
+  "payButton": "Open the warehouses",
+  "passButton": "Let the parishes provide",
+  "cost": {
+    "homeGoods": { "Provision": [50, 100] },
+    "homeStock": { "kinds": 1, "share": [0.25, 0.5] },
+    "money": [1000, 2500]
+  },
+  "trigger": {
+    "from": "1775-09-01",
+    "chancePerWeek": 0.3
+  },
+  "effects": {
+    "homePopulationPercent": 0.3
+  }
+}

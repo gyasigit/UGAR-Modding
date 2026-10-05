@@ -1,0 +1,8 @@
+﻿{
+  "id": "ugar.modmanager",
+  "name": "UGAR Mod Manager",
+  "description": "This window. Lists every installed mod, switches mods on or off and edits their settings.",
+  "author": "UGAR modding project",
+  "category": "Manager",
+  "canDisable": false
+}

@@ -1,0 +1,9 @@
+﻿{
+  "id": "ugar.recruitgrowth",
+  "name": "Recruit Growth",
+  "description": "Shows how many recruits each settlement gains per day and why, when growth is paused, and when the next recruits from Britain arrive. Hover a settlement's recruits number for a summary, click it for details; click the population number in the top bar for all settlements. British campaigns also get a colonial recruits total on the top bar (click it for the per-town list). Read-only: changes nothing in the game.",
+  "author": "UGAR modding project",
+  "category": "Information",
+  "advanced": ["Debug.VerifyLog", "Window.Scale", "General.OverviewKey"],
+  "reloadWith": ["ugar.custombuildings"]
+}

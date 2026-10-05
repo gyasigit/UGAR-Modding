@@ -1,0 +1,9 @@
+{
+  "id": "ugar.tradepartners",
+  "name": "Trade Partners",
+  "description": "Shows the trade the game runs behind your markets: the 8 partner nations, what each brings to or takes from the market every day (after tension and lost trade ships), what is blocked and why, stock and storage limits, buy/sell prices and each market's price multipliers. Britain can switch between the colony and England markets. Open it from the PARTNERS tab on the market screen or with F6. Read-only: changes nothing in the game.",
+  "author": "UGAR modding project",
+  "category": "Information",
+  "advanced": ["Window.Scale", "Debug.VerifyLog"],
+  "canDisable": true
+}

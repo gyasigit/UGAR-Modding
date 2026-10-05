@@ -1,0 +1,22 @@
+This package redistributes the following unmodified third-party software in
+payload\BepInEx-IL2CPP. It is installed only when BepInEx is missing.
+
+BepInEx 6.0.0-be.729 (Unity IL2CPP, win-x64)
+  https://github.com/BepInEx/BepInEx  - LGPL-2.1
+  Builds: https://builds.bepinex.dev/projects/bepinex_be
+
+Bundled with BepInEx and redistributed as part of it:
+  Unity Doorstop (winhttp.dll)   https://github.com/NeighTools/UnityDoorstop  - LGPL-2.1
+  Il2CppInterop                  https://github.com/BepInEx/Il2CppInterop     - LGPL-3.0
+  HarmonyX (0Harmony.dll)        https://github.com/BepInEx/HarmonyX          - MIT
+  MonoMod                        https://github.com/MonoMod/MonoMod           - MIT
+  Mono.Cecil                     https://github.com/jbevain/cecil             - MIT
+  Cpp2IL / LibCpp2IL             https://github.com/SamboyCoding/Cpp2IL       - MIT
+  AsmResolver                    https://github.com/Washi1337/AsmResolver     - MIT
+  Iced                           https://github.com/icedland/iced             - MIT
+  .NET 6 runtime (dotnet folder) https://github.com/dotnet/runtime            - MIT
+
+Source code for all of the above is available at the links shown.
+
+The UGAR mods themselves (payload\plugins) are fan-made and not affiliated
+with Game-Labs.

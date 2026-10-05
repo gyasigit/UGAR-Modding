@@ -1,0 +1,17 @@
+{
+  // Fires for Britain from February 1776, about one week in three once the date is reached.
+  "id": "army-extraordinaries",
+  "title": "Parliament Votes the Army Extraordinaries",
+  "text": "Lord North has carried the House: the extraordinary expenses of the army in America are voted without division. The Board of Ordnance at once places new contracts with the iron founders of the Weald and the gunsmiths of Birmingham, and private manufactories across the kingdom are opened to Crown work.",
+  "button": "God save the King",
+  "payButton": "Fund the contracts",
+  "passButton": "The Treasury cannot spare it",
+  "cost": { "money": [3000, 6000], "supplies": [15, 30], "specialists": [1, 2] },
+  "trigger": {
+    "from": "1776-02-01",
+    "chancePerWeek": 0.35
+  },
+  "effects": {
+    "maxFactories": 5
+  }
+}

@@ -1,0 +1,22 @@
+// Town Expansion: the first custom building. Format: docs/custom-buildings.md.
+// The id is stored in saves; never change it once players have built this.
+{
+  "id": "ugar.town_expansion",
+  "name": "Town Expansion",
+  "description": "New streets, houses and a market square draw settlers to the town. The town's population grows twice as fast, which slowly raises its workforce and the recruits it supplies, and it raises 10% more recruits.",
+
+  // Copy the look of the first of these that exists, and price it relative to that building.
+  "template": ["Granary", "Schoolhouse", "Church"],
+  "settlementTypes": ["TOWN", "PORT"],
+  "aiCanBuild": false,
+
+  "cost": { "multiplier": 1.5 },
+  "buildPoints": { "multiplier": 1.5 },
+
+  "effects": {
+    "populationGrowthBonus": 1.0,
+    "modifiers": [
+      { "modifier": "RECRUITS_PERCENT", "value": 0.10, "percent": true }
+    ]
+  }
+}

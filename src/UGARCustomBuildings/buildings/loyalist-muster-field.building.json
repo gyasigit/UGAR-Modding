@@ -1,0 +1,22 @@
+// Loyalist Muster Field: British-only building that raises the militia regiment limit. Format: docs/custom-buildings.md.
+// The id is stored in saves; never change it once players have built this.
+{
+  "id": "ugar.loyalist_muster_field",
+  "name": "Loyalist Muster Field",
+  "description": "A drill ground where colonists loyal to the Crown gather and train as militia. Each Muster Field lets Britain field 2 more militia regiments.",
+
+  "template": ["Barracks", "Stockade", "Armory"],
+  "settlementTypes": ["TOWN", "PORT", "FORT"],
+  "nations": ["Britain"],
+  "aiCanBuild": false,
+
+  "cost": { "multiplier": 1.0 },
+  "buildPoints": { "multiplier": 1.0 },
+
+  "effects": {
+    // BLOCK_MILITA is the game's (oddly named) militia regiment limit, a nation-wide value.
+    "countryModifiers": [
+      { "modifier": "BLOCK_MILITA", "value": 2 }
+    ]
+  }
+}

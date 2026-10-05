@@ -1,0 +1,18 @@
+{
+  // Needs a major American port in British hands (any one of the list) from mid-September 1776.
+  "id": "navy-board-merchant-yards",
+  "title": "The Navy Board Contracts Merchant Yards",
+  "text": "With the King's dockyards at Deptford, Chatham and Portsmouth full to the slipways, and a fleet to be kept on the American station, the Navy Board places contracts for frigates and sloops with private builders on the Thames, at Bursledon and at Buckler's Hard.",
+  "button": "Lay down the keels",
+  "payButton": "Sign the contracts",
+  "passButton": "The King's yards must manage",
+  "cost": { "money": [4000, 8000], "supplies": [20, 40], "specialists": [1, 3] },
+  "trigger": {
+    "from": "1776-09-15",
+    "ownsAny": ["New York", "Halifax", "Newport", "Philadelphia", "Charleston", "Savannah"],
+    "chancePerWeek": 0.3
+  },
+  "effects": {
+    "maxShipyards": 5
+  }
+}

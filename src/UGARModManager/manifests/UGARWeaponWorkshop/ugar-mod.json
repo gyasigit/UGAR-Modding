@@ -1,0 +1,9 @@
+﻿{
+  "id": "ugar.weaponworkshop",
+  "name": "Weapon Workshop",
+  "description": "Design your own muskets and rifles from the guns you have researched: pick a base pattern, barrel length, rifling, bayonet and build quality, then improve it as Mk II, Mk III. Designs are real weapons: factories make them and regiments carry them. Open it from the WORKSHOP tab in the production screen (under MUSKETS / CANNONS / SHIPS / SUPPLY) or with F10. Old designs can be archived (production stops, guns keep working) and deleted once nothing uses them. Saves with designs need this mod to load.",
+  "author": "UGAR modding project",
+  "category": "Content",
+  "restartRequired": [],
+  "advanced": ["Window.Scale"]
+}

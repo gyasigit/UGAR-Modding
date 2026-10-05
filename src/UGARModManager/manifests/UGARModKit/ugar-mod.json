@@ -1,0 +1,9 @@
+{
+  "id": "ugar.modkit",
+  "name": "ModKit (library)",
+  "description": "Shared code for UGAR mods: campaign and day events, values stored in the save, money and supplies, game-style popups and modifiers. It does nothing on its own; other mods need it. Preview (0.x): its API for modders may still change.",
+  "author": "UGAR modding project",
+  "category": "Library",
+  "canDisable": false,
+  "hotReload": false
+}

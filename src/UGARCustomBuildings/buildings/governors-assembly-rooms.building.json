@@ -1,0 +1,32 @@
+// Governor's Assembly Rooms: Britain turns imported luxuries into renown. Format: docs/custom-buildings.md.
+// Tea, spice and luxury are the only goods no settlement can produce (they come from overseas trade partners), so
+// this can't become a free renown farm. The id is stored in saves; never change it once players have built this.
+{
+  "id": "ugar.governors_assembly_rooms",
+  "name": "Governor's Assembly Rooms",
+  "description": "Grand receptions for loyalist society, served with tea, spices and luxuries shipped from home. Every week the Rooms use 3 tea, 2 spice and 1 luxury goods from storage to raise the Crown's standing. No goods, no reception. At most 2 in the nation.",
+
+  "template": ["CustomHouse", "Church"],
+  "settlementTypes": ["TOWN", "PORT"],
+  "nations": ["Britain"],
+  "aiCanBuild": false,
+  "maxPerNation": 2,
+
+  "cost": [
+    { "resource": "Money", "amount": 2400 },
+    { "resource": "ConstructionMaterial", "amount": 15 },
+    { "resource": "Specialist", "amount": 2 }
+  ],
+  "buildPoints": 60,
+
+  "effects": {
+    "weeklyConversion": {
+      "consume": [
+        { "resource": "Tea", "amount": 3 },
+        { "resource": "Spices", "amount": 2 },
+        { "resource": "Luxury", "amount": 1 }
+      ],
+      "renown": 8
+    }
+  }
+}

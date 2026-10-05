@@ -1,0 +1,10 @@
+﻿{
+  "id": "ugar.devconsole",
+  "name": "Developer Console",
+  "description": "Turns on the developers' own cheat/debug console on the campaign map. Press ~ to open it, Escape to close, type 'list' for all commands. Cheat commands change your save, so use with care.",
+  "author": "UGAR modding project",
+  "category": "Tools",
+  "advanced": ["General.LogCommands"],
+  "canDisable": true
+}
+
