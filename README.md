@@ -5,7 +5,7 @@ Not affiliated with or endorsed by Game-Labs. Contains no game files.
 
 ## Install
 
-1. Download the latest `UGAR-ModPack-<version>.zip` from [Releases](https://github.com/gyasigit/UGAR-Modding/releases/latest).
+1. **[Download UGAR-ModPack.zip](https://github.com/gyasigit/UGAR-Modding/releases/latest/download/UGAR-ModPack.zip)** (latest version; all versions are on the [Releases](https://github.com/gyasigit/UGAR-Modding/releases) page).
 2. Close the game, unzip the whole package anywhere and double-click `Install.bat`.
 3. Start the game from Steam (the first start after installing BepInEx takes a few extra minutes) and press **F8** for the mod manager.
 
