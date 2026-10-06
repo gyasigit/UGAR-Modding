@@ -3,6 +3,10 @@
 Mods made for **Ultimate General: American Revolution** (Steam, Windows), built on BepInEx 6 (IL2CPP).
 Not affiliated with or endorsed by Game-Labs. Contains no game files.
 
+![Highlights of the mod pack in game: Mod Manager, Recruit Growth, Bulk Recruit, Custom Buildings, Developer Console, Weapon Workshop and Trade Partners](docs/images/mod-pack-tour.gif)
+
+Full video (no sound): [Full tour, part 1](docs/images/mod-pack-tour-1.mp4) (3 min) · [Full tour, part 2](docs/images/mod-pack-tour-2.mp4) (1 min)
+
 ## Install
 
 1. **[Download UGAR-ModPack.zip](https://github.com/gyasigit/UGAR-Modding/releases/latest/download/UGAR-ModPack.zip)** (latest version; all versions are on the [Releases](https://github.com/gyasigit/UGAR-Modding/releases) page).
